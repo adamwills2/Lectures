@@ -8,6 +8,7 @@ public class Main {
       Scanner s = new Scanner(System.in);
       int selection = s.nextInt();
       
+	//list is interface
       List myList = null;
       
       // Where are these objects placed in memory? Why?
