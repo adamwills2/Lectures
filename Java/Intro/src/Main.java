@@ -7,9 +7,14 @@ public class Main {
       System.out.println("Enter a number");
       Scanner s = new Scanner(System.in);
       int selection = s.nextInt();
+      // Why don't we use "new" with this int variable?
       
+<<<<<<< HEAD
 	//list is interface
       List myList = null;
+=======
+      List myList;
+>>>>>>> refs/remotes/csulb-cecs424-2016fa/master
       
       // Where are these objects placed in memory? Why?
       if (selection % 2 == 0)
